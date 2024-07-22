@@ -3,7 +3,7 @@
 This project draws on Verilog to implement a simple elevator system consisting of the elevator module to fulfill the floor request, manage door control, and change the current state based on the door state. It includes:
 - **Elevator Module**: The module processes floor requests, organizes the state transitions, and operates the door.
 - **Testbench**: This tool creates a facsimile of various scenarios in order to check the operation of the elevator module.
-**Note**: This code is a sample, not a complete industrial application. Its performance and security might need to be improved or refined according to the specific real-world usage of the elevator.
+- **Note**: This code is a sample, not a complete industrial application. Its performance and security might need to be improved or refined according to the specific real-world usage of the elevator.
 ## Features
 - **Floor Request Handling**: Elevator processes the requests and moves the lift to different floors as per the request command.
 - **State Management**: In fact, the functionality provides three states: idle, moving, and stop, getting inputs, and output and do the proper necessary functions.
